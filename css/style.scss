@@ -1,7 +1,7 @@
 $white: #ffffff;
 $black: #000000;
 $primary1: #f7444e;
-$primary2: #002c3e;
+$primary2: #CADFDF;
 $textCol: #1f1f1f;
 
 // import fonts -  font-family: 'Poppins', sans-serif and  font-family: 'Playfair Display', serif
@@ -527,7 +527,8 @@ a:focus {
     background-color: $primary2;
     padding: 25px;
     border-radius: 5px;
-    color: $white;
+    color: $black;
+    text-transform:capitalize;
 
     .img-box {
       margin-bottom: 15px;
@@ -535,7 +536,7 @@ a:focus {
       svg {
         width: 55px;
         height: auto;
-        fill: $white;
+        fill: $black;
       }
     }
   }
